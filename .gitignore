@@ -9,3 +9,9 @@
 *.ipr
 *.iws
 /out/
+bin/
+.settings/
+/.vscode/
+/testProcessor/bin/
+.classpath
+.project
