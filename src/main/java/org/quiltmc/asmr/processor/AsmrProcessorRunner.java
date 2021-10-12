@@ -363,7 +363,7 @@ final class AsmrProcessorRunner {
                         AsmrAbstractListNode<?, ?> replacement = (AsmrAbstractListNode<?, ?>) write.replacementSupplier.get();
                         insertCopy(list, startIndex, replacement);
 
-                        shiftRefCapturesFrom(sortedRefCaptures, sliceCapture, endIndex - startIndex + replacement.size());
+                        shiftRefCapturesFrom(sortedRefCaptures, sliceCapture, startIndex - endIndex + repalcement.size);
                     }
                 }
 
